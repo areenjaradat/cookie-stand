@@ -1,51 +1,70 @@
-
 * {
   box-sizing: border-box;
 }
+
 header {
-  /*  position: relative;*/
   background-image: url("https://assets.weforum.org/global_future_council/image/9Oy9vlsCcZojgauMS1eyNeKVpnBHDTuwnEy6vSVJYUM.jpeg");
-  height:200px; 
-  background-position: center; 
+  height: 200px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-
-header {
   padding: 40px;
   margin: 10px;
 }
 
+
+
 header h1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
   margin-left: 400px;
   font-weight: bolder;
-  font-size:xx-large ;
+  font-size: xx-large;
 }
 
 nav {
   clear: both;
-  
 }
 header nav ul li a {
-    font-weight: bold;
-    font-size: large;
-    text-decoration: none;
-    color:black;
-    
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  color: black;
 }
-main{border:2px solid rgb(151, 151, 209);}
-main ul{padding:5px;}
+
+ a :hover{background-color: yellow;}
+main {
+  border: 2px solid rgb(151, 151, 209);
+}
+main ul {
+  padding: 5px;
+}
 main ul li {
-    text-align: center;
-    font-family:"Sofia", sans-serif;
-    font-size: x-large;
-    padding:5px;
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  font-size: x-large;
+  padding: 5px;
 }
-figure p{font-family: monospace; padding: 5px;font-size: larger;font-weight: bolder;}
-figure{background-color: cadetblue;}
-figure img{width: 300px;height:200px;border-radius: 50px;}
-footer{border: 2px solid rgb(83, 83, 230); background-color: cornflowerblue;margin: 5px;}
-footer p{text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-
-
+figure p {
+  font-family: monospace;
+  padding: 5px;
+  font-size: larger;
+  font-weight: bolder;
+}
+figure {
+  background-color: cadetblue;
+}
+figure img {
+  width: 300px;
+  height: 200px;
+  border-radius: 50px;
+}
+footer {
+  border: 2px solid rgb(83, 83, 230);
+  background-color: cornflowerblue;
+  margin: 5px;
+}
+footer p {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
