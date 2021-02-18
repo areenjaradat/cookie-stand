@@ -1,9 +1,21 @@
-table{
+table {
     border: 1px solid chartreuse;
-}
-tr td {
+  }
+  tr td {
     border: 1px solid green;
-}
-tr th {
+  }
+  tr th {
     border: 1px solid green;
-}
+  }
+  
+  input:invalid {
+    border: 2px outset red;
+  }
+  
+  input:invalid:required {
+    border: 2px double rgb(189, 201, 84);
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
