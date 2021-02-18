@@ -1,0 +1,34 @@
+header {
+  /*  position: relative;*/
+  background-image: url("https://assets.weforum.org/global_future_council/image/9Oy9vlsCcZojgauMS1eyNeKVpnBHDTuwnEy6vSVJYUM.jpeg");
+  height:200px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+figcaption {
+ 
+  padding: 40px;
+  margin: 10px;
+}
+
+figcaption img {
+float: left;
+  top: 0px;
+}
+
+figcaption h1 {
+    right: 10000px;
+  font-weight: 900;
+} 
+/*
+nav {
+  clear: both;
+  padding: 10px;
+  margin: 10px;
+  background-color: black;
+}
+header nav ul li {
+  display: inline-block;
+}*/
