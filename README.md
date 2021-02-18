@@ -15,4 +15,4 @@ modify the the footrs function make it in an easy way than before.
 add form can add city you want then add it to the table and make some calculation.
 
 18/2/2021
-modified form function and validate input
+modified form function and validate input.
