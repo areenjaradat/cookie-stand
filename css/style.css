@@ -1,23 +1,46 @@
+
+header {
+  background-image: url("https://github.com/LTUC/amman-201d14/blob/main/class-06/lab/assets/salmon.png?raw=true");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  position: relative;
+  left: 500px;
+  top: 70px;
+}
 table {
+  position: relative;
+  margin: 60px;
+  left: 300px;
+  border: 1px dashed rgb(15, 15, 14);
+}
+tr td {
+  border: 1px solid green;
+}
+tr th {
+  border: 1px solid green;
+}
 
-    border: 1px solid chartreuse;
-  }
-  tr td {
-    border: 1px solid green;
-  }
-  tr th {
-    border: 1px solid green;
-  }
-  
-  input:invalid {
-    border: 2px outset red;
-  }
-  
-  input:invalid:required {
-    border: 2px double rgb(189, 201, 84);
-  }
-  
-  input:valid {
-    border: 2px solid black;
-  }
+div {
+  position: relative;
+  left: 300px;
+  width: 600px;
+  margin: 50px;
+}
 
+input:invalid {
+  border: 2px outset red;
+}
+
+input:invalid:required {
+  border: 2px double rgb(189, 201, 84);
+}
+
+input:valid {
+  border: 2px solid black;
+}
