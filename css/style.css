@@ -1,4 +1,5 @@
 table {
+
     border: 1px solid chartreuse;
   }
   tr td {
@@ -19,3 +20,4 @@ table {
   input:valid {
     border: 2px solid black;
   }
+
