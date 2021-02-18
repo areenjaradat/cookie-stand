@@ -158,4 +158,6 @@ for (let i = 0; i < citiesarray.length; i++) {
 }
 
 footers();
+
 //console.log(tableid.rows.length);
+
